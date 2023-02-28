@@ -5,3 +5,4 @@ from sklearn.metrics import r2_score
 r2 = r2_score(y_test, y_pred)
 print('r2 score for the random forest classifier model:', r2)
 print("RR")
+print("SM")
