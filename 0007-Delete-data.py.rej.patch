@@ -1,0 +1,38 @@
+From f50aa90e421df748a8f70f23653fd171b264c5a6 Mon Sep 17 00:00:00 2001
+From: shalini-mitt <90783347+shalini-mitt@users.noreply.github.com>
+Date: Tue, 28 Feb 2023 19:12:37 +0530
+Subject: [PATCH 07/15] Delete data.py.rej
+
+---
+ data.py.rej | 19 -------------------
+ 1 file changed, 19 deletions(-)
+ delete mode 100644 data.py.rej
+
+diff --git a/data.py.rej b/data.py.rej
+deleted file mode 100644
+index cef81a7..0000000
+--- a/data.py.rej
++++ /dev/null
+@@ -1,19 +0,0 @@
+-diff a/data.py b/data.py	(rejected hunks)
+-@@ -1,14 +1,7 @@
+--# -*- coding: utf-8 -*-
+--"""
+--Created on Sun Nov 27 23:30:33 2022
+--
+--@author: SM
+--"""
+--
+- y_test=[60000, 500000, 110000]
+- y_pred=[57880, 487400, 0.105320]
+- 
+- from sklearn.metrics import r2_score
+- r2 = r2_score(y_test, y_pred)
+- print('r2 score for the random forest classifier model:', r2)
+--print(True)
+-\ No newline at end of file
+-+print(False)
+-\ No newline at end of file
+-- 
+2.39.2.windows.1
+

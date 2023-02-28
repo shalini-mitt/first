@@ -1,0 +1,10 @@
+diff a/data.py b/data.py	(rejected hunks)
+@@ -4,4 +4,5 @@ y_pred=[57880, 487400, 0.105320]
+ from sklearn.metrics import r2_score
+ r2 = r2_score(y_test, y_pred)
+ print('r2 score for the random forest classifier model:', r2)
+-print("RR")
+\ No newline at end of file
++print("RR")
++print("SM")
+\ No newline at end of file

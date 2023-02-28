@@ -1,0 +1,32 @@
+From f86e684f54aac2d9587e5fab06f9a4ac9509c673 Mon Sep 17 00:00:00 2001
+From: shalini-mitt <shalini.mittal20@st.niituniversity.in>
+Date: Sat, 25 Feb 2023 09:24:04 +0530
+Subject: [PATCH 02/15] second
+
+---
+ data.py | 13 +++++++++++++
+ 1 file changed, 13 insertions(+)
+ create mode 100644 data.py
+
+diff --git a/data.py b/data.py
+new file mode 100644
+index 0000000..9089f9c
+--- /dev/null
++++ b/data.py
+@@ -0,0 +1,13 @@
++# -*- coding: utf-8 -*-
++"""
++Created on Sun Nov 27 23:30:33 2022
++
++@author: SM
++"""
++
++y_test=[60000, 500000, 110000]
++y_pred=[57880, 487400, 0.105320]
++
++from sklearn.metrics import r2_score
++r2 = r2_score(y_test, y_pred)
++print('r2 score for the random forest classifier model:', r2)
+-- 
+2.39.2.windows.1
+

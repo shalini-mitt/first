@@ -1,0 +1,91 @@
+From 15694886aaedc39e21d4cd8aac7b39e09c90823f Mon Sep 17 00:00:00 2001
+From: shalini-mitt <shalini.mittal20@st.niituniversity.in>
+Date: Tue, 28 Feb 2023 19:10:52 +0530
+Subject: [PATCH 06/15] data.py
+
+---
+ data.py        |  9 +--------
+ data.py.rej    | 19 +++++++++++++++++++
+ my_patch.patch | 22 ++++++++++++++++++++++
+ 3 files changed, 42 insertions(+), 8 deletions(-)
+ create mode 100644 data.py.rej
+ create mode 100644 my_patch.patch
+
+diff --git a/data.py b/data.py
+index d335701..f6efbab 100644
+--- a/data.py
++++ b/data.py
+@@ -1,14 +1,7 @@
+-# -*- coding: utf-8 -*-
+-"""
+-Created on Sun Nov 27 23:30:33 2022
+-
+-@author: SM
+-"""
+-
+ y_test=[60000, 500000, 110000]
+ y_pred=[57880, 487400, 0.105320]
+ 
+ from sklearn.metrics import r2_score
+ r2 = r2_score(y_test, y_pred)
+ print('r2 score for the random forest classifier model:', r2)
+-print(True)
+\ No newline at end of file
++print(False)
+\ No newline at end of file
+diff --git a/data.py.rej b/data.py.rej
+new file mode 100644
+index 0000000..cef81a7
+--- /dev/null
++++ b/data.py.rej
+@@ -0,0 +1,19 @@
++diff a/data.py b/data.py	(rejected hunks)
++@@ -1,14 +1,7 @@
++-# -*- coding: utf-8 -*-
++-"""
++-Created on Sun Nov 27 23:30:33 2022
++-
++-@author: SM
++-"""
++-
++ y_test=[60000, 500000, 110000]
++ y_pred=[57880, 487400, 0.105320]
++ 
++ from sklearn.metrics import r2_score
++ r2 = r2_score(y_test, y_pred)
++ print('r2 score for the random forest classifier model:', r2)
++-print(True)
++\ No newline at end of file
+++print(False)
++\ No newline at end of file
+diff --git a/my_patch.patch b/my_patch.patch
+new file mode 100644
+index 0000000..e51fe37
+--- /dev/null
++++ b/my_patch.patch
+@@ -0,0 +1,22 @@
++diff --git a/data.py b/data.py
++index d335701..f6efbab 100644
++--- a/data.py
+++++ b/data.py
++@@ -1,14 +1,7 @@
++-# -*- coding: utf-8 -*-
++-"""
++-Created on Sun Nov 27 23:30:33 2022
++-
++-@author: SM
++-"""
++-
++ y_test=[60000, 500000, 110000]
++ y_pred=[57880, 487400, 0.105320]
++ 
++ from sklearn.metrics import r2_score
++ r2 = r2_score(y_test, y_pred)
++ print('r2 score for the random forest classifier model:', r2)
++-print(True)
++\ No newline at end of file
+++print(False)
++\ No newline at end of file
+-- 
+2.39.2.windows.1
+

@@ -1,0 +1,61 @@
+From 61b92517619f7bbff8fdba743876743feeda208a Mon Sep 17 00:00:00 2001
+From: shalini-mitt <shalini.mittal20@st.niituniversity.in>
+Date: Tue, 28 Feb 2023 19:22:46 +0530
+Subject: [PATCH 09/15] data.py
+
+---
+ data.py         |  2 +-
+ data.py.rej     |  9 +++++++++
+ mychanges.patch | 12 ++++++++++++
+ 3 files changed, 22 insertions(+), 1 deletion(-)
+ create mode 100644 data.py.rej
+ create mode 100644 mychanges.patch
+
+diff --git a/data.py b/data.py
+index f6efbab..2524a4f 100644
+--- a/data.py
++++ b/data.py
+@@ -4,4 +4,4 @@ y_pred=[57880, 487400, 0.105320]
+ from sklearn.metrics import r2_score
+ r2 = r2_score(y_test, y_pred)
+ print('r2 score for the random forest classifier model:', r2)
+-print(False)
+\ No newline at end of file
++print("My name is shalini mittal")
+\ No newline at end of file
+diff --git a/data.py.rej b/data.py.rej
+new file mode 100644
+index 0000000..b26126e
+--- /dev/null
++++ b/data.py.rej
+@@ -0,0 +1,9 @@
++diff a/data.py b/data.py	(rejected hunks)
++@@ -4,4 +4,4 @@ y_pred=[57880, 487400, 0.105320]
++ from sklearn.metrics import r2_score
++ r2 = r2_score(y_test, y_pred)
++ print('r2 score for the random forest classifier model:', r2)
++-print(False)
++\ No newline at end of file
+++print("My name is shalini mittal")
++\ No newline at end of file
+diff --git a/mychanges.patch b/mychanges.patch
+new file mode 100644
+index 0000000..00764f3
+--- /dev/null
++++ b/mychanges.patch
+@@ -0,0 +1,12 @@
++diff --git a/data.py b/data.py
++index f6efbab..2524a4f 100644
++--- a/data.py
+++++ b/data.py
++@@ -4,4 +4,4 @@ y_pred=[57880, 487400, 0.105320]
++ from sklearn.metrics import r2_score
++ r2 = r2_score(y_test, y_pred)
++ print('r2 score for the random forest classifier model:', r2)
++-print(False)
++\ No newline at end of file
+++print("My name is shalini mittal")
++\ No newline at end of file
+-- 
+2.39.2.windows.1
+

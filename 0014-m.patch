@@ -1,0 +1,24 @@
+From 750d4cfe6b2349155af9eb882db77ad2bd1293a1 Mon Sep 17 00:00:00 2001
+From: shalini-mitt <shalini.mittal20@st.niituniversity.in>
+Date: Wed, 1 Mar 2023 00:02:21 +0530
+Subject: [PATCH 14/15] m
+
+---
+ data.py | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/data.py b/data.py
+index 6243d8d..0a96336 100644
+--- a/data.py
++++ b/data.py
+@@ -4,5 +4,5 @@ y_pred=[57880, 487400, 0.105320]
+ from sklearn.metrics import r2_score
+ r2 = r2_score(y_test, y_pred)
+ print('r2 score for the random forest classifier model:', r2)
+-print("RR")
++print("I love RR")
+ print("SM")
+\ No newline at end of file
+-- 
+2.39.2.windows.1
+
